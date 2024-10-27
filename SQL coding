@@ -1,1 +1,8 @@
-
+create database python;
+use python;
+create table student(
+ID integer auto_increment primary key,
+Name varchar(25),
+Dept varchar(10)
+);
+select * from student;
